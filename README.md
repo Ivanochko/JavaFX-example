@@ -23,9 +23,9 @@ N | Plane |  Speed | Distance
 
 #### 4. Sort in the source files to perform three options:
 
-- по Plane, при рівності – по Speed, при рівності – по Distance,
-- по Speed, при рівності – по Plane, при рівності – по Distance,
-- по Speed, при рівності – по Distance, при рівності – по Plane.
+- by Plane, by equality - by Speed, by equality - by Distance,
+- by Speed, by equality - by Plane, by equality - by Distance,
+- by Speed, by equality - by Distance, by equality - by Plane.
 
 #### 5. Set the sort type from the drop-down list. Use the _split()_ method of the String class to convert a text string to a Strings array. Use _parseDouble()_ from the Double class and _parseInt()_ from the Integer class to convert text variables to numeric ones.
 
