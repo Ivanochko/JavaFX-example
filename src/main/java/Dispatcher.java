@@ -45,7 +45,7 @@ public class Dispatcher extends Application {
         Scene myScene = new Scene(root, 600, 240);
         myStage.setScene(myScene);
 
-        response = new Label("Спосіб сортування");
+        response = new Label("Sorting type:");
         response.setTextFill(Color.web("#ffffff"));
 
         ObservableList<String> typeSorting = FXCollections.observableArrayList(
@@ -60,7 +60,7 @@ public class Dispatcher extends Application {
         ds.setOffsetX(1.0);
         ds.setColor(Color.color(0.7, 0.7, 0.7));
 
-        Button button = new Button("Посортувати файли!");
+        Button button = new Button("Sort the files!");
         button.setMinSize(370, 30);
         button.setStyle("-fx-background-color: #ff660d;"
                 + " -fx-text-fill: #FFFFFF;"
